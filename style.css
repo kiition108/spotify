@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: aliceblue;
+    
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+main .left-three-fourth{
+    display: flex;
+    /* flex: 75%; */
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    float: left;
+    position: absolute;
+    border: 1px solid white;
+}
+main .left-three-fourth .default{
+    display: flex;
+    /* flex: 75%; */
+    width: 100%;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    overflow-x: scroll;
+    overflow-anchor: none;
+    overscroll-behavior: none;
+}
+main .left-three-fourth .default img{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 23rem;
+    width: 23rem;
+    transition: all 1s ease-in;
+}
+
+
+main .left-three-fourth .latest-release{
+    /* align-items: center; */
+    /* justify-content: space-between;0 */
+    /* width: 100%; */
+    overflow-x: scroll;
+    overflow-anchor: none;
+    overscroll-behavior: none;
+}
+main .left-three-fourth .popular-artist{
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* width: 100%; */
+    overflow-x: scroll;
+    overflow-anchor: none;
+    overscroll-behavior: none;
+}
+main .left-three-fourth .latest-english{
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* width: 100%; */
+    overflow-x: scroll;
+    overflow-anchor: none;
+    overscroll-behavior: none;
+}
+main .left-three-fourth .latest-english .row{
+    display: flex;
+    flex-direction: row;
+
+}
+main .left-three-fourth .latest-english .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+main .left-three-fourth .latest-hindi{
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* width: 100%; */
+    
+    overflow-x: scroll;
+    overflow-anchor: none;
+    overscroll-behavior: none;
+}
+main .right-one-fourth{
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* flex: 25%; */
+    /* flex-wrap: wrap; */
+    width: 25%;
+    height: 100%;
+    float: right;
+    overflow-y: scroll;
+    overflow-anchor: none;
+    overscroll-behavior: none;
+    position: relative;
+    border: 1px solid white;
+}
+/* main .right-one-fourth .sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+} */
+main .right-one-fourth .sidebar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    /* background-color: red; */
+}
+main .right-one-fourth .sidebar-content{
+    line-height: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    /* background-color: green; */
+
+}
